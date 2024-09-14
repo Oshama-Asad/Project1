@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(179, 177, 177); */
+  /* padding: 55px 40px 0 40px; */
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+nav {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  padding: 40px 25px;
+}
+.nav-items {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+#i-cart {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 15px;
+}
+#cntr-content {
+  padding: 20px 80px;
+}
+#cntr-content h1 {
+  font-size: 6.3vw;
+  font-weight: 400;
+  line-height: 85px;
+}
+#content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#content p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+}
+#cntr-menu{
+    width: 25%;
+}
+.menu{
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    color: rgb(40, 39, 39);
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu i{
+    font-weight: 300;
+    font-size: large;
+    padding-right: 10px;
+    opacity: 0;
+}
+.menu:hover i{
+    opacity: 1;
+}
+.menu:hover a{
+    color: black;
+    font-weight: 700;
+}
+.menu:hover{
+    border-color: rgb(153, 148, 148);
+}
+#bottom{
+    width: 100%;
+    height: 40%;
+    background-image: url(jacket.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width:600px) {
+  nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    padding: 40px 25px;
+  } 
+}
